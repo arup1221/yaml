@@ -1,0 +1,9 @@
+---
+School:
+- name: GHS
+  principle: Dhurjuti Prasad Saha
+  students:
+  - rno: 10
+    name: Arup
+    marks: 20
+    

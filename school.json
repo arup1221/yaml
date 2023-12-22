@@ -1,0 +1,16 @@
+{
+    "School":[
+        {
+            "name": "GHS",
+            "Principle": "Dhurjuti Prasad Saha",
+            "Student": [
+                {
+                    "rno": 10,
+                    "name": "Arup",
+                    "marks": 20
+                }
+            ]
+        }
+    ]
+
+}

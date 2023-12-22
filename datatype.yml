@@ -1,0 +1,52 @@
+#String variables
+myself: Arup Gope
+fruit: "apple"
+Job: "Unemployed" #moye moye
+
+
+bio: |
+ Hey my name is Arup gope. 
+ I love to code.
+
+
+# write a single line in multiple lines
+message: >
+this will
+all the 
+in one single line
+
+
+# same as
+message: !!str this will all the in one single line
+
+
+---
+number: 5473
+marks: 98.76
+booleanValue: !!bool No # n, N false, False, FALSE
+#same for true -> yes, y, Y
+
+
+#specify the type
+zero: !!int 0
+positiveNum : !!int 45
+negativeNum: !!int -45
+binaryNum: !!int 0b11001
+octalNum: !!int 06574
+hexNum: !!int 0x45
+commaValue: !!int +548_000 #540,000
+exponential numbers: 6.023E56
+
+# floating point numbers
+marks: !!float 56.89
+infinite: !!float .inf
+not a num: .nan
+
+#null
+surname: !!null Null #or null Null ~
+~: this is a null key
+
+#date and time
+date: !!timestamp 2021-05-24
+india time: 2001-12-15T02:59:43.10 +5:30
+no time zone: 2001-12-15T02:59:43.10

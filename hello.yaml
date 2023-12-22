@@ -1,0 +1,21 @@
+"apple" : "I am a red fruit"
+1: "Arup's roll num"
+#different type of documents separatied by "---"
+---
+#list
+- "apple"
+- "orange"
+- "banana"
+- "Apple"
+
+---
+cities: 
+ - new delhi
+ - mumbai
+ - kolkata
+---
+cities: [new delhi, mumbai]
+---
+{mango:"yellow fruit", age:34}
+...
+# ... represent that the documetn is finished
